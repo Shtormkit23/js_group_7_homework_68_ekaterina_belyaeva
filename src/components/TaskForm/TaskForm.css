@@ -1,0 +1,22 @@
+.Form {
+    margin: 0 auto 30px;
+    max-width: 600px;
+    display: flex;
+}
+
+.Input {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    resize: none;
+}
+
+.Input:focus {
+    outline: none;
+    background-color: whitesmoke;
+}
