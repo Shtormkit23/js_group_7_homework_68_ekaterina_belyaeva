@@ -1,0 +1,24 @@
+.Task {
+    padding: 5px 20px 35px;
+    position: relative;
+    background: linear-gradient(to bottom, rgba(252, 236, 252, 0.3) 0%, rgba(255, 228, 225, 0.5) 100%);
+    border: 2px solid mistyrose;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    min-height: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.TextTask {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.Task button {
+    width: 150px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
